@@ -74,6 +74,7 @@ header nav a:hover:after {
   margin-top: 1.25em;
   margin-bottom: 2.25em;
 }
+
 .searchbar label {
   display: flex;
   justify-content: center;
@@ -83,6 +84,7 @@ header nav a:hover:after {
   border-radius: 15px 0px 0px 15px;
   background-color: var(--background-color);
 }
+
 .searchbar label i {
   background-color: var(--background-color);
 
@@ -232,6 +234,7 @@ input:focus::placeholder {
   align-items: center;
   font-size: 1.2em;
 }
+
 .popular-header i {
   width: 15px;
   color: #0065fc;
@@ -243,6 +246,7 @@ input:focus::placeholder {
   font-weight: 600;
   font-size: 1.1em
 }
+
 .hebergement-plus:hover {
   color: var(--main-color);
 }
@@ -357,13 +361,13 @@ main a:hover img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 1em;
+  padding: 5px 10px;
 }
 
 .card-popular-body-description {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 5px 10px;
 }
 
 .activities {
@@ -371,6 +375,7 @@ main a:hover img {
   flex-direction: column;
   gap: 30px;
 }
+
 .activities-content {
   display: flex;
   justify-content: space-between;
@@ -429,9 +434,11 @@ footer a:hover {
   .destination-search h2 {
     margin-bottom: 0.35em;
   }
+
   .main-row {
     flex-direction: column;
   }
+
   .hebergement,
   .popular {
     width: 100%;
@@ -440,17 +447,17 @@ footer a:hover {
   .popular-content {
     flex-wrap: nowrap;
   }
+
   .activities-content {
     height: 265px;
   }
+
   .activity img {
     height: 75%;
   }
+
   .activity h4 {
     padding: 0.5em 1em;
-  }
-  .card-popular-body-description h4 {
-    font-size: 0.8em;
   }
 }
 
@@ -460,10 +467,16 @@ footer a:hover {
     padding: 0;
   }
 
+  .card p {
+    font-size: 0.8em;
+    padding-top: 3px;
+  }
+
   /* section search */
   .destination-search {
-padding: 1em;
+    padding: 1em;
   }
+
   .destination-search {
     padding: 0 1.25em;
   }
@@ -480,9 +493,11 @@ padding: 1em;
     justify-content: center;
     transform: translateX(-13px);
   }
+
   .searchbar button i {
     display: block;
   }
+
   .searchbar button span {
     display: none;
   }
@@ -514,6 +529,7 @@ padding: 1em;
     height: 2px;
     bottom: 0px;
   }
+
   header nav a:hover:after {
     height: 3px;
     top: 58px;
@@ -524,9 +540,11 @@ padding: 1em;
   .hebergement {
     background-color: white;
   }
+
   .hebergement button {
     display: none;
   }
+
   .hebergement-content,
   .activities-content {
     flex-direction: column;
@@ -542,28 +560,35 @@ padding: 1em;
   .popular {
     border-radius: 0;
   }
+
   .main-row {
     flex-direction: column-reverse;
   }
+
   .activities,
   .popular,
   .hebergement {
     padding: 1.5em;
   }
+
   .activities-content {
     height: auto;
   }
+
   .activity {
     height: 200px;
   }
+
   .activity img {
     height: 75%;
   }
+
   /* footer */
   footer {
     padding: 45px 30px;
     line-height: 1.5em;
   }
+
   footer nav {
     flex-direction: column;
   }
