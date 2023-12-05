@@ -27,7 +27,7 @@ img {
   object-fit: cover;
 }
 
-/* -- ||  HEADER  || -- */
+/* Header */
 
 header {
   display: flex;
@@ -62,7 +62,7 @@ header nav a:hover:after {
   height: 2px;
 }
 
-/* -- ||  SECTION SEARCH || -- */
+/* Search section */
 
 .destination-search h2 {
   margin-bottom: 0.5em;
@@ -193,7 +193,7 @@ input:focus::placeholder {
   height: 15px;
 }
 
-/* -- ||  MAIN || -- */
+/* Main */
 
 .main {
   display: flex;
@@ -401,7 +401,7 @@ main a:hover img {
   padding: 10px;
 }
 
-/* -- ||  FOOTER || -- */
+/* Footer */
 
 footer {
   margin-top: 2em;
@@ -429,8 +429,10 @@ footer a:hover {
   color: var(--main-color);
 }
 
-/* -- ||  BREAKPOINT TABLET || -- */
-@media screen and (min-width: 768px) and (max-width: 992px) {
+/****** Media queries ***********/
+
+/* Medium devices (tablets, less/equal than 1024px) */
+@media (max-width: 1024px) {
   .destination-search h2 {
     margin-bottom: 0.35em;
   }
@@ -461,8 +463,8 @@ footer a:hover {
   }
 }
 
-/* -- ||  BREAKPOINT MOBILE || -- */
-@media screen and (max-width: 768px) {
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
   body {
     padding: 0;
   }
@@ -472,7 +474,6 @@ footer a:hover {
     padding-top: 3px;
   }
 
-  /* section search */
   .destination-search {
     padding: 1em;
   }
@@ -502,7 +503,6 @@ footer a:hover {
     display: none;
   }
 
-  /* header */
   header {
     align-items: center;
     flex-direction: column;
@@ -536,7 +536,6 @@ footer a:hover {
     width: 100%;
   }
 
-  /* main */
   .hebergement {
     background-color: white;
   }
@@ -583,7 +582,6 @@ footer a:hover {
     height: 75%;
   }
 
-  /* footer */
   footer {
     padding: 45px 30px;
     line-height: 1.5em;
