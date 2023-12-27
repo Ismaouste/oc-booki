@@ -409,7 +409,7 @@ main a:hover img {
 }
 
 .activity h4 {
-  padding: 10px;
+  padding: 1em;
 }
 
 /* Footer */
@@ -472,6 +472,11 @@ footer a:hover {
   .activity h4 {
     padding: 0.5em 1em;
   }
+
+  .filters {
+    flex-direction: column;
+    gap: 0.5em;
+  }
 }
 
 /* Small devices (phones, less than 768px) */
@@ -482,7 +487,7 @@ footer a:hover {
 
   .card p {
     font-size: 0.8em;
-    padding-top: 3px;
+    padding: 8px 0 3px;
   }
 
   .destination-search {
@@ -560,6 +565,16 @@ footer a:hover {
     flex-direction: column;
   }
 
+  .filters ul li button {
+    width: 42vw;
+    height: 4em;
+    text-align: left;
+  }
+
+  .filters ul li i {
+    font-size: 1.5em;
+  }
+
   .card-hebergement,
   .activity,
   .popular,
@@ -575,6 +590,10 @@ footer a:hover {
     flex-direction: column-reverse;
   }
 
+  .popular-content {
+    flex-direction: column;
+    gap: 15px;
+  }
   .activities,
   .popular,
   .hebergement {
@@ -583,6 +602,7 @@ footer a:hover {
 
   .activities-content {
     height: auto;
+    gap: 15px;
   }
 
   .activity {
