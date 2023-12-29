@@ -385,6 +385,7 @@ main a:hover img {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  padding: 40px;
 }
 
 .activities-content {
@@ -518,6 +519,11 @@ footer a:hover {
   .searchbar button span {
     display: none;
   }
+
+  .searchbar input {
+    width: 75%;
+    max-width: 700px;
+}
 
   header {
     align-items: center;
